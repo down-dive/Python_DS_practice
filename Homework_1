@@ -52,7 +52,7 @@ def add_strings(str1,str2):
 add_strings("Hello","Wourld")
 
 Exercise 8
-for x in range(11,1):
+for x in range(10,0,-1):
     print(x)
     
 Exercise 9
@@ -67,9 +67,9 @@ print(states_list)
 Exercise 10
 
 Albert_Einstein = "Life is like riding a bicycle. To keep your balance you must keep moving"
-print(Albert_Einstein.find("you"))
-print(Albert_Einstein.find("ing"))
-print(Albert_Einstein.find("life"))
+print(Albert_Einstein.count("you"))
+print(Albert_Einstein.count("ing"))
+print(Albert_Einstein.count("life"))
 
 Exercise 11
 states_1 = ["Washington","Oregon","California"]
