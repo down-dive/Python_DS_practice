@@ -38,7 +38,9 @@ else:
     print("Not Golden State or Lone Star State")
     
 Exercise 6
-???
+for f in fruits:
+    print(f)
+    fruits.reverse()
 
 Exercise 7
 def square_and_sum(a,b):
